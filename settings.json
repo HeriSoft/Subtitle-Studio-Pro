@@ -3,7 +3,7 @@
   "deepseek_api_key": "",
   "ausynclab_api_key": "",
   "max_tokens": 2048,
-  "ffmpeg_path": "E:\\SubtitleStudio\\SubtitleStudio_Pro\\ffmpeg.exe",
+  "ffmpeg_path": ":\\SubtitleStudio\\SubtitleStudio_Pro\\ffmpeg.exe",
   "ytdlp_path": "yt-dlp",
   "bbdown_path": "BBDown.exe",
   "hf_auto_download": false,
@@ -15,7 +15,7 @@
   "burn_outline": 1,
   "burn_shadow": 1,
   "burn_margin_v": 10,
-  "out_dir": "E:\\SubtitleStudio\\SubtitleStudio_Pro\\downloads",
+  "out_dir": ":\\SubtitleStudio\\SubtitleStudio_Pro\\downloads",
   "theme": "Light",
   "language": "Vietnamese",
   "convert_type": "Video",
@@ -40,5 +40,6 @@
   "outline": 1,
   "shadow": 1,
   "margin_v": 10,
-  "ffmpeg": "E:\\SubtitleStudio\\SubtitleStudio_Pro\\ffmpeg.exe"
+  "ffmpeg": ":\\SubtitleStudio\\SubtitleStudio_Pro\\ffmpeg.exe"
+
 }
