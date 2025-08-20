@@ -10,4 +10,5 @@ How to install:
 6. (venv)Subtitle-Studio-Pro/python main.py
 ------------------
 You can run SSP.bat without running venv after installing requirements
+------------------
 You must have ffmpeg, ffplay, ffprobe inside the folder
