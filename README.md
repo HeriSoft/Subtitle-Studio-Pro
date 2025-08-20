@@ -12,3 +12,7 @@
 ------------------
 + You can run SSP.bat without running venv after installing requirements
 + You must have ffmpeg, ffplay, ffprobe inside the folder
+------------------
+System Requirements:
++ RAM 16GB
++ VRAM (GPU): 12GB
