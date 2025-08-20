@@ -1,0 +1,65 @@
+QMainWindow, QTabWidget, QWidget {
+    background-color: #f0f0f0;
+}
+QTabWidget::pane {
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+}
+QTabBar::tab {
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 2px;
+}
+QTabBar::tab:selected {
+    background-color: #007bff;
+    color: white;
+}
+QLineEdit, QComboBox, QSpinBox, QTextEdit, QGraphicsView, QSlider, QProgressBar, QCheckBox {
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 6px;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+QGraphicsView {
+    background-color: #000000;
+}
+QTextEdit {
+    background-color: #f8f8f8;
+}
+QProgressBar {
+    text-align: center;
+    background-color: #f0f0f0;
+}
+QProgressBar::chunk {
+    background-color: #007bff;
+    border-radius: 8px;
+}
+QPushButton {
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 6px;
+    background-color: #007bff;
+    color: white;
+    font-size: 14px;
+}
+QPushButton:hover {
+    background-color: #0056b3;
+}
+QSlider::groove:horizontal {
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    background: #f0f0f0;
+    height: 8px;
+}
+QSlider::handle:horizontal {
+    background: #007bff;
+    border: 1px solid #0056b3;
+    border-radius: 4px;
+    width: 16px;
+    margin: -4px 0;
+}
+QSlider::handle:horizontal:hover {
+    background: #0056b3;
+}

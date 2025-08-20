@@ -1,0 +1,13 @@
+import sys
+from PySide6.QtWidgets import QApplication, QMainWindow, QTabWidget
+from tabs.translate_tab import TranslateTab
+from tabs.burn_tab import BurnTab
+from tabs.voiceover_tab import VoiceOverTab
+from tabs.downloader_tab import DownloaderTab
+from tabs.convert_tab import ConvertTab
+from tabs.settings_tab import SettingsTab
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__(); self.setWindowTitle('SubtitleStudio Pro (Flat v5)'); tabs = QTabWidget(); tabs.addTab(TranslateTab(),'Translate'); tabs.addTab(BurnTab(),'Burn/Subtitles'); tabs.addTab(VoiceOverTab(),'VoiceOver (AusyncLab)'); tabs.addTab(DownloaderTab(),'Downloader'); tabs.addTab(ConvertTab(),'Convert'); tabs.addTab(SettingsTab(),'Settings'); self.setCentralWidget(tabs)
+if __name__=='__main__':
+    app = QApplication(sys.argv); w = MainWindow(); w.resize(1100,820); w.show(); sys.exit(app.exec())

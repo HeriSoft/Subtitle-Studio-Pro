@@ -1,0 +1,87 @@
+QMainWindow, QTabWidget, QWidget {
+    background-color: #2d2d2d;
+    color: #ffffff; /* Đặt màu chữ mặc định cho QWidget */
+}
+QTabWidget::pane {
+    border: 1px solid #555555;
+    border-radius: 8px;
+}
+QTabBar::tab {
+    border: 1px solid #555555;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 2px;
+    background-color: #3c3c3c;
+    color: #ffffff; /* Văn bản tab màu trắng */
+}
+QTabBar::tab:selected {
+    background-color: #007bff;
+    color: #ffffff;
+}
+QLabel {
+    color: #ffffff; /* Đảm bảo QLabel có màu trắng */
+}
+QLineEdit, QComboBox, QSpinBox, QTextEdit, QSlider, QProgressBar, QCheckBox {
+    border: 1px solid #555555;
+    border-radius: 8px;
+    padding: 6px;
+    background-color: #3c3c3c;
+    color: #ffffff; /* Văn bản màu trắng */
+    font-size: 14px;
+}
+QComboBox::drop-down {
+    border: none;
+}
+QComboBox::down-arrow {
+    image: url(:/icons/down_arrow.png); /* Cần icon phù hợp cho Dark mode */
+}
+QGraphicsView {
+    background-color: #000000;
+}
+QTextEdit {
+    background-color: #333333;
+    color: #ffffff; /* Văn bản QTextEdit màu trắng */
+}
+QProgressBar {
+    text-align: center;
+    background-color: #3c3c3c;
+    color: #ffffff; /* Văn bản QProgressBar màu trắng */
+}
+QProgressBar::chunk {
+    background-color: #007bff;
+    border-radius: 8px;
+}
+QPushButton {
+    border: 1px solid #555555;
+    border-radius: 8px;
+    padding: 6px;
+    background-color: #007bff;
+    color: #ffffff; /* Văn bản QPushButton màu trắng */
+    font-size: 14px;
+}
+QPushButton:hover {
+    background-color: #0056b3;
+}
+QSlider::groove:horizontal {
+    border: 1px solid #555555;
+    border-radius: 4px;
+    background: #3c3c3c;
+    height: 8px;
+}
+QSlider::handle:horizontal {
+    background: #007bff;
+    border: 1px solid #0056b3;
+    border-radius: 4px;
+    width: 16px;
+    margin: -4px 0;
+}
+QSlider::handle:horizontal:hover {
+    background: #0056b3;
+}
+QCheckBox::indicator {
+    border: 1px solid #555555;
+    background-color: #3c3c3c;
+}
+QCheckBox::indicator:checked {
+    background-color: #007bff;
+}
