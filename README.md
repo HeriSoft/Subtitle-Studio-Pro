@@ -1,6 +1,7 @@
 # Subtitle-Studio-Pro
 + Tool to create subtitle, edit videos and AI chat
 + Supported download: Youtube, Facebook, Reddit, Instagram, X, Douyin and Bilibili (FHD + No watermark)
++ Vietnamese UI supported
 ---------------
 + How to install:
 ----------------
